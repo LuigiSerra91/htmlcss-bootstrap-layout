@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+[class^="col"] {
+    padding: 1rem;
+}
+
+.col_12{
+    width: 100%;
+    
+}
+
+.row{
+    display: flex;
+    margin: 0 -1rem;
+    flex-wrap: wrap;
+}
